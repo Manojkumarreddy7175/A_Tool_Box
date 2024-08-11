@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Directory</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>AI Tools Directory</h1>
+        <input type="text" id="search" placeholder="Search for AI tools...">
+    </header>
+
+    <section id="filters">
+        <h2>Filter by:</h2>
+        <div>
+            <label for="functionality">Functionality:</label>
+            <select id="functionality">
+                <option value="all">All</option>
+                <option value="nlp">Natural Language Processing</option>
+                <option value="image-generation">Image Generation</option>
+                <option value="data-analysis">Data Analysis</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <div>
+            <label for="industry">Industry:</label>
+            <select id="industry">
+                <option value="all">All</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="finance">Finance</option>
+                <option value="education">Education</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+    </section>
+
+    <section id="tools-list">
+        <!-- AI Tools will be listed here dynamically -->
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
